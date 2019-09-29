@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}
+
+#name {
+    color: white;
+    background: teal;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    position: absolute;
+    margin-left: 150px;
+}
+
+#navbar {
+    float: right;
+    margin-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+a:link, a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#content{
+    height: 400px;
+    width: 900px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#aboutme {
+    color: teal;
+    background-color: white;
+    margin-left: 20px;
+}
+
+#KBPortrait {
+    float: left;
+    margin-left: 20px;
+}
+#wrapper {
+    clear: both;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto 0 auto;
+    background: #e9e7e7;
+    position: sticky;
+}
+
+h2 {
+    color: teal;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: gray;
+    color: rgb(219, 214, 214);
+    font-size: small;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 0;
+}

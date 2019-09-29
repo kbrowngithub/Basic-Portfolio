@@ -5,57 +5,37 @@
 <head>
     <meta charset="UTF-8">
     <title>"Kevin Brown's Basic Portfolio"</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/12-column-grid.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="row">
-        <header>
-            <div class="three">
-                <div id="namebox" style="background: teal; text-decoration-color: white; align-content: center">
-                    <h1 class="name">Kevin Brown</h1>
-                </div>
-            </div> <!--Close column three -->
-            <div class="nine">
-                <div id="nav bar">
-                    <nav style="float: right">
-                        <a href="index.html" style="text-decoration: none">About&nbsp;&nbsp;&nbsp;</a> |
-                        <a href="portfolio.html" style="text-decoration: none">&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a> |
-                        <a href="contact.html" style="text-decoration: none">&nbsp;&nbsp;&nbsp;Contact</a>
-                    </nav>
-                </div>
-            </div> <!--Close column nine -->
-        </header>
-    </div> <!-- Close row 1 -->
+    <header>
+    <div>
+        <h1 id="name">Kevin Brown</h1>
+        <nav id="navbar">
+            <a href="index.html">About&nbsp;&nbsp;&nbsp;</a> |
+            <a href="portfolio.html">&nbsp;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&nbsp;</a> |
+            <a href="contact.html">&nbsp;&nbsp;&nbsp;Contact</a>
+        </nav>
+    </header>
 
-    <div class="row">
-        <h1>About Me</h1>
-        <hr size="5" color="grey">
-        <br>
-        <div class="portrait">
-            <div class="three">
-                <img id="KBPortrait" alt="Kevin Brown pic" src="assets/images/PortraitPlaceholder.JPG" width="203"
-                    height="234">
+    <div id="wrapper">
+        <div id="content">
+            <div id="aboutme">
+                <h1 id="aboutme">About Me</h1>
             </div>
-        </div> <!--Close column three -->
+            <!--Put the line code here-->
+            <img id="KBPortrait" alt="Kevin Brown pic" src="assets/images/PortraitPlaceholder.JPG" width="203"
+                height="234">
+            <p>I'm a Software Engineer currently updating my skill set with some Full Stack Web Development experience.
+            </p>
+        </div>
+    </div>
+</div>
 
-        <div class="nine"> 
-            <div class="content">
-                <p>I'm a Software Engineer currently updating my skill set with some Full Stack Web Development experience.</p>
-            </div>
-        </div> <!-- Close column nine -->
-    </div> <!-- Close row 2 -->
-
-    <div class="row">
-        <footer style="background-color: whitesmoke">
-            
-                <a href="resume.html" style="text-decoration: none">Resume</a>
-                <p>Phone: xxx-xxx-xxxx</p>
-                <a href="email.html" style="text-decoration: none">Email</a>
-
-        </footer>
-    </div> <!-- Close row 3-->
+    <footer id="footer">
+        <p>Copyright &copy;</p>
+    </footer>
 </body>
 
 </html>
