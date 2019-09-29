@@ -46,7 +46,7 @@ a:link, a:visited {
     position: absolute;
 }
 
-#aboutme {
+#subtitle {
     color: teal;
     background-color: white;
     margin-left: 20px;
@@ -71,7 +71,7 @@ a:link, a:visited {
     border-bottom-style: solid;
     border-bottom-width: 6px;
     border-bottom-color: teal;
-    position: static;
+    position: relative;
 }
 
 hr {
