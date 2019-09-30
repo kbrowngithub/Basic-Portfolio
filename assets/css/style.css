@@ -94,14 +94,21 @@ hr {
     color:#dddddd;
 }
 
-footer {
+#footer {
     clear: both;
     width: 100%;
-    background-color: #666666;;
-    color: rgb(219, 214, 214);
-    font-size: small;
+    background-color: #666666;
+    font-size: 10px;
+    font-weight: bold;
     text-align: center;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 0;
+    border-color: #666666;
+    border-style: solid;
+    border-bottom-width: 1px;
+}
+
+#copyright {
+    color: rgb(204, 202, 202);
 }
