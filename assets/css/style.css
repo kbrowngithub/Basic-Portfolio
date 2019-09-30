@@ -1,9 +1,16 @@
 * {
     box-sizing: border-box;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: white;
+    width: 1110px;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -12,17 +19,19 @@ body {
 
 #name {
     color: white;
-    background: teal;
-    padding: 20px;
+    background: #4aaaa5;
+    padding: 25px;
     text-align: center;
     float: left;
     margin-left: 150px;
     margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #navbar {
+    margin: 0;
     float: right;
-    margin-right: 150px;
+    padding-right: 0;
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -35,11 +44,12 @@ a:link, a:visited {
 }
 
 #content{
-    height: 450px;
-    width: 900px;
-    background-color: white;
+    height: 420px;
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
     margin-left: 150px;
-    margin-top: 40px;
+    margin-top: 30px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(201, 199, 199);
@@ -47,9 +57,10 @@ a:link, a:visited {
 }
 
 #subtitle {
-    color: teal;
+    color: #4aaaa5;
     background-color: white;
     margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #KBPortrait {
@@ -65,13 +76,12 @@ a:link, a:visited {
     margin: 0;
     padding: 0;
     background-image: url("../images/concrete-texture.png");
-
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: rgb(173, 171, 171);
     border-bottom-style: solid;
     border-bottom-width: 6px;
-    border-bottom-color: teal;
+    border-bottom-color: #4aaaa5;
     position: relative;
 }
 
@@ -79,13 +89,15 @@ hr {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    border-color: #e9e7e7;
+    border-style: solid;
+    border-width: 1px;
+    color:#dddddd;
 }
 
 footer {
     clear: both;
     width: 100%;
-    background-color: gray;
+    background-color: #666666;;
     color: rgb(219, 214, 214);
     font-size: small;
     text-align: center;
