@@ -64,8 +64,8 @@ a:link, a:visited {
     height: 600px;
     margin: 0;
     padding: 0;
-    background-image: url("assets/images/concrete-texture.png");
-    background: #e9e7e7;
+    background-image: url("../images/concrete-texture.png");
+
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: rgb(173, 171, 171);
