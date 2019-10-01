@@ -146,6 +146,7 @@ hr {
     border-style: solid;
     border-width: 1px;
     color:#dddddd;
+    opacity: .5;
     float: left;
     margin-left: 20px;
     margin-right: auto;
