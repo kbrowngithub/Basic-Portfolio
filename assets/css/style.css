@@ -56,6 +56,8 @@ a:link, a:visited {
     position: absolute;
 }
 
+/* Need to get clarification on width for ALL pages. If the same as AboutMe page then this section can 
+   go away. */
 #pcontent{
     height: 500px;
     width: 960px;
@@ -127,8 +129,8 @@ hr {
 }
 
 #form {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 #tname, #temail, #tmessage {
@@ -146,7 +148,7 @@ hr {
     color:#dddddd;
     float: left;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: auto;
 }
 
 #imessage {
@@ -157,7 +159,7 @@ hr {
     color:#dddddd;
     float: left;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-bottom: 15px;
 }
 
