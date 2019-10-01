@@ -44,7 +44,7 @@ a:link, a:visited {
 }
 
 #content{
-    height: 420px;
+    height: 500px;
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -111,4 +111,52 @@ hr {
 
 #copyright {
     color: rgb(204, 202, 202);
+}
+
+#form {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#tname, #temail, #tmessage {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 6px;
+}
+
+#iname, #iemail {
+    width: 95%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    color:#dddddd;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#imessage {
+    width: 95%;
+    height: 140px;
+    border-style: solid;
+    border-width: 1px;
+    color:#dddddd;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#isubmit {
+    color: white;
+    background: #4aaaa5;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
 }
