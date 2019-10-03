@@ -17,6 +17,11 @@ body {
     background-color: white;
 }
 
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #name {
     color: white;
     background: #4aaaa5;
@@ -44,7 +49,7 @@ a:link, a:visited {
 }
 
 #content{
-    height: 500px;
+    height: 550px;
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -82,6 +87,7 @@ a:link, a:visited {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #wrapper {
